@@ -7,7 +7,7 @@ interface ICreateSnippetDTO {
 }
 
 interface ISnippetsRepository {
-  findByTitle(tech: string): Snippet;
+  findByTitle(title: string): Snippet;
   list(): Snippet[];
   create({ tech, title, code }: ICreateSnippetDTO): void;
 }

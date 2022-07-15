@@ -1,5 +1,4 @@
-import { Snippet } from "modules/snippets/model/Snippet";
-
+import { Snippet } from "../../model/Snippet";
 import { ICreateSnippetDTO, ISnippetsRepository } from "../ISnippetsRepository";
 
 class SnippetsRepository implements ISnippetsRepository {

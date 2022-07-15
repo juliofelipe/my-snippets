@@ -1,4 +1,4 @@
-import { ISnippetsRepository } from "modules/snippets/repositories/ISnippetsRepository";
+import { ISnippetsRepository } from "../../repositories/ISnippetsRepository";
 
 interface IRequest {
   tech: string;
